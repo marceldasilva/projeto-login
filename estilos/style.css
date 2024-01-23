@@ -5,7 +5,10 @@ html, body {
 }
 
 .imagem {
+    height: 30vh;
     background-image: url(../imagens/pattern-login.jpg);
+    background-position: center;
+    border-radius: 0px;
 }
 
 main {
@@ -17,6 +20,7 @@ main {
 }
 
 h1 {
+    margin-top: 300px;
     text-align: center;
 }
 
