@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+html, body {
+    background-color: #5F2C82;
+}
+
+.imagem {
+    background-image: url(../imagens/pattern-login.jpg);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ems {
+    background-color: #5F2C82;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 10px 0px 0px;
+}
+
+.dentro {
+    background-color: aquamarine;
+    padding: 5px;
+    margin: -20px -20px -10px 0px;
+    border-radius: 5px;
+}
+
+.entrar {
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+}
+
+.esqueci {
+    display: block;
+    margin: auto;
+}
