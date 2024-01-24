@@ -10,34 +10,64 @@ html, body {
 }
 
 .imagem {
+    display: block;
+    width: 50vw;
     height: 30vh;
     background-image: url(../imagens/pattern-login-pq.jpg);
     background-position: center center;
-    border-radius: 20px 20px 0px 0px;
-    margin: -10px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    margin-right: -50%;
+    transform: translate(-50%, -170%);
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
 }
 
-.centro {
+main {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+section {
+    display: block;
+}
+
+.conteudo {
+    width: 50vw;
+    height: 50vh;
     background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    width: 58vw;
+    margin-top: 50px;
+    padding: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
 }
 
-article {
-    display: block;
+.formulario {
+    margin-top: 130px;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -45,17 +75,17 @@ h1 {
     background-color: #5F2C82;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
     width: 90%;
 }
 
 .dentro {
     background-color: aquamarine;
-    padding: 13px 12px 9px 10px;
+    padding: 11px 12px 9px 10px;
     margin: -10px -10px -10px 50px;
     border-radius: 10px;
     border: none;
-    width: 39vw;
+    width: 32vw;
 }
 
 .entrar {
@@ -82,7 +112,7 @@ h1 {
     margin: auto;
     border-radius: 5px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 13px;
     border-radius: 5px;
     background-color: white;
